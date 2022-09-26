@@ -41,6 +41,8 @@ function onClickGetModal(evt) {
         `);
   instance.show();
 
+  //   const shownImage = instance.element();
+  //   console.log(shownImage);
   document.addEventListener("keydown", onCloseModal);
 
   function onCloseModal(evt) {
